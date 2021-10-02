@@ -4,6 +4,8 @@ import { Route, Switch, Link } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
             </li>
             <li>
               <Link to="/contact">Contact</Link>
+            </li>
+            <li className="navigation-icon" title="View on GitHub">
+              <a href="https://github.com/notkelloggstony/test-react-gh-pages">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
             </li>
           </ul>
         </nav>

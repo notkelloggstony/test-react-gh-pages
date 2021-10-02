@@ -64,6 +64,11 @@
   background-color: #111;
 }
 
+#navigation .navigation-icon {
+  float: right;
+  margin-right: 16px;
+}
+
 .page {
   background-color: #282c34;
   min-height: 100vh;
